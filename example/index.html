@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <!-- custom css -->
+    <link href="../css/persian-datedropper.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+    <!-- jQuery lib -->
+    <script src="https://eco.modirandev.com/dist/js/jquery.min.js"></script>
+    <!-- persianDate lib -->
+    <script src="../js/persian-date.js"></script>
+    <!-- dateDropper lib -->
+    <script src="../js/persian-datedropper.js"></script>
+</head>
+<body>
+<!-- tag element -->
+<input type="text" data-lang="fa" data-large-default="true" data-large-mode="true"/>
+<!-- init dateDropper -->
+<script>
+    $('input').dateDropper();
+</script>
+</body>
+</html>

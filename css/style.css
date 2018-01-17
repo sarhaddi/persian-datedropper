@@ -1,0 +1,10 @@
+/* change font to custom font */
+@font-face {
+    font-family: 'datedropper_custom_font';
+    src: url('src/BYekan.eot');
+    src: url('src/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('src/BYekan.woff') format('woff'),
+    url('src/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
